@@ -20,17 +20,22 @@
     "typescript": "^2.6.2"
   },
   "devDependencies": {
+    "@types/jest": "^19.2.4",
     "jest": "^21.2.1",
-    "@types/jest": "^19.2.4"
-  },
-  "scripts": {
-    "test": "jest"
+    "ts-jest": "^21.2.4",
+    "tslint": "^5.8.0"
   },
   "jest": {
-    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
     },
-    "testMatch": ["**/__tests__/*.(ts|tsx|js)"]
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx|js)"
+    ]
   }
 }
