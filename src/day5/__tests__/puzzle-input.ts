@@ -1092,3 +1092,7 @@ const PUZZLE_INPUT: string = `2
 export function getPuzzleInput() {
     return PUZZLE_INPUT;
 }
+
+test("Fake test", () =>{
+    expect(getPuzzleInput()).toBe(PUZZLE_INPUT);
+});
