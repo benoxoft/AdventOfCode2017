@@ -25,7 +25,6 @@
     "ts-jest": "^21.2.4",
     "tslint": "^5.8.0"
   },
-
   "jest": {
     "moduleFileExtensions": [
       "ts",
